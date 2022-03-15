@@ -15,12 +15,12 @@
 
 </head>
 
-<body>
+<body class="bg-dark">
     {{-- @stack('before-navbar')
     @include('layouts.navbar')
     @stack('after-navbar') --}}
 
-    <div class="container-fluid">
+    <div class="container-fluid p-5">
         @stack('before-content')
         @yield('content')
         @stack('after-content')
