@@ -18,12 +18,10 @@
                     <th scope="row">2</th>
                     <td>Jacob</td>
                 </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>{{ $penjual->notelp }}</td>
-                </tr>
+                <h1></h1>
+
             </tbody>
         </table>
     </div>
-    <button type="button" class="btn btn-primary"></button>
+    <button type="button" class="btn btn-primary">{{ $data->notelp }}</button>
 @endsection

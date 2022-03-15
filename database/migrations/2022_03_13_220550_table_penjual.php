@@ -15,8 +15,7 @@ class TablePenjual extends Migration
     {
         Schema::create('penjual', function (Blueprint $table) {
             $table->id('id');
-            $table->string('namapenjual')->unique()->nullable();
-            $table->string('notelp')->unique()->nullable();
+            $table->string('notelp');
             $table->timestamps();
         });
     }

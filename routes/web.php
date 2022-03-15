@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Controller::class, 'index']);
+Route::get('/{id}', [Controller::class, 'show']);
 
 // Route::get('/', function () {
 //     return view('test');
