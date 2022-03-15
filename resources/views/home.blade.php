@@ -35,6 +35,7 @@
     </div>
     <div class="d-flex justify-content-center align-items-center pt-2">
         <span class="text-white mx-2">hubungi {{ $data->nama }}</span>
-        <a class="btn btn-primary" href="https://wa.me/{{ $data->notelp }}" role="button">{{ $data->notelp }}</a>
+        <a class="btn btn-primary" href="https://wa.me/{{ $data->notelp }}?text=Bang%20Aku%20Pengen%20Beli%20Diamond"
+            role="button">{{ $data->notelp }}</a>
     </div>
 @endsection
