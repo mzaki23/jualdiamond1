@@ -1,9 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="justify-items-center">
-        <div>
-            <h1 class="text-white">{{ $nama }}</h1>{!! DNS2D::getBarcodeHTML("$link", 'QRCODE') !!}
-        </div>
+    <div class="bg-white vh-100 text-center align-content-center">
+        <h1 class="text-dark">{{ $nama }}</h1>
+        <img src="data:image/png;base64,{!! DNS2D::getBarcodePNG("$link", 'QRCODE', '10', '10') !!}" width="300" height="300" alt="">
+
     </div>
 @endsection
