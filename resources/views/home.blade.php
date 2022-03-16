@@ -4,7 +4,7 @@
     <h1 class="text-white text-center py-5">Jual Diamond Game</h1>
     <div class="card-group">
         <div class="card">
-            <img src="./img/logohiggs.jpg" class="card-img-top" alt="...">
+            <img src="../images/logohiggs.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Higgs Domino</h5>
                 <p class="card-text">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="./img/logocod.jpg" class="card-img-top" alt="...">
+            <img src="../images/logocod.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Call Of Duty Garena</h5>
                 <p class="card-text">tes.
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="../public/storage/img/logoff.jpg" class="card-img-top" alt="...">
+            <img src="../images/logoff.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Free Fire Garena</h5>
                 <p class="card-text">tes.</p>
