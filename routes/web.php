@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{id:notelp}', [Controller::class, 'show']);
+Route::get('/', [Controller::class, 'index']);
 
 // Route::get('/', function () {
 //     return view('test');
