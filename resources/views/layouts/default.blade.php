@@ -29,9 +29,9 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    @stack('before-script')
+    {{-- @stack('before-script')
     @include('layouts.script')
-    @stack('after-script')
+    @stack('after-script') --}}
 
 </body>
 

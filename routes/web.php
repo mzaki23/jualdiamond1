@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{id:notelp}', [Controller::class, 'show']);
+Route::get('/', [Controller::class, 'index']);
+Route::get('/qrcode/{id}', [Controller::class, 'qrcode']);
+// Route::get('/{id}', [Controller::class, 'generate'])->name('generate');
+// Route::get('/create', [Controller::class, 'create']);
 
 // Route::get('/', function () {
 //     return view('test');
