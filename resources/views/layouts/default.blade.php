@@ -20,7 +20,7 @@
     @include('layouts.navbar')
     @stack('after-navbar') --}}
 
-    <div class="container-fluid p-5">
+    <div class="container">
         @stack('before-content')
         @yield('content')
         @stack('after-content')
