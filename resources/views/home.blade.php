@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="{{ asset('./storage/img/logoff.jpg') }}" class="card-img-top" alt="...">
+            <img src="../public/storage/img/logoff.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Free Fire Garena</h5>
                 <p class="card-text">tes.</p>
